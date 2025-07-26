@@ -1,4 +1,4 @@
-# This .gitignore file should be placed at the root of your Unity project directory
+17:43 26-07-2025# This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
@@ -11,7 +11,33 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
-*.fbx
+Assets/**/*.fbx
+Assets/**/*.png
+Assets/**/*.jpg
+Assets/**/*.tga
+Assets/**/*.psd
+Assets/**/*.mp3
+Assets/**/*.wav
+Assets/**/*.mp4
+# Ignore auto-generated Unity files
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+!Assets/**/*.meta
+!Assets/**/*.unity
+!Assets/**/*.prefab
+
+# Ignore lightmap and GI cache data
+Assets/**/Lightmap*
+Assets/**/ReflectionProbe*
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
